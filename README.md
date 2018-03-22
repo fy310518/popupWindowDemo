@@ -5,7 +5,8 @@ PopupWindow 简单封装与使用
 
 为了使用方便又 实现了一个 NicePopup 类；使用方式如下：
 
-PopupWindow mPopWindow = NicePopup.Builder.init()
+
+      PopupWindow mPopWindow = NicePopup.Builder.init()
                 .setLayoutId(R.layout.demo_popup)
                 .setConvertListener(new NicePopup.PopupConvertListener() {
                     @Override
@@ -43,6 +44,6 @@ PopupWindow mPopWindow = NicePopup.Builder.init()
 
 
 
-关于PopupWindow 的显示可以参考，个人简书 https://www.jianshu.com/p/461a6137d644；
+关于PopupWindow 的显示可以参考，个人简书 https://www.jianshu.com/p/461a6137d644
 
 关于本篇 PopupWindow 的封装，遇到许多坑，一一爬了一遍，在此感谢前辈们博客的指导（查的资料过多已经不记得具体地址了，抱歉）^_^
